@@ -1,0 +1,6 @@
+export const  LOAD_PRODUCTS="LOAD_PRODUCTS";
+export const  ADD_TO_CART="ADD_TO_CART";
+export const  INC_QUANTITY="INC_QUANTITY";
+export const  DEC_QUANTITY="DEC_QUANTITY";
+export const  CHANGE_CURRENT_PAGE="CHANGE_CURRENT_PAGE";
+export const  REMOVE_ITEM="REMOVE_ITEM";

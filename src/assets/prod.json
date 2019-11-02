@@ -1,0 +1,105 @@
+{
+"products":[
+  {
+    "_id": "5dbc8e22a736a18ccf7047e4",
+    "category": "Skirt",
+    "price": 596,
+    "Description": "Proident nulla aliqua minim irure.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt5.jpeg"
+  },
+  {
+    "_id": "5dbc8e22d698f23f7d8669a4",
+    "category": "Pent",
+    "price": 601,
+    "Description": "Laboris deserunt eiusmod officia quis laborum dolor laborum Lorem aliquip.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt7.jpeg"
+  },
+  {
+    "_id": "5dbc8e221ac35d76a3ecc5df",
+    "category": "Blouse",
+    "price": 219,
+    "Description": "Ullamco elit aliqua aliquip sunt cupidatat anim nulla magna cillum.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt2.jpeg"
+  },
+  {
+    "_id": "5dbc8e22fa77b843d15d1ec4",
+    "category": "Pent",
+    "price": 242,
+    "Description": "Laborum ex sit occaecat exercitation cillum qui ea Lorem exercitation adipisicing.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt9.jpeg"
+  },
+  {
+    "_id": "5dbc8e221b31fcfe26e3e3a2",
+    "category": "Skirt",
+    "price": 707,
+    "Description": "Anim consectetur ipsum ad in.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt4.jpeg"
+  },
+  {
+    "_id": "5dbc8e22280cce687b080d91",
+    "category": "Blouse",
+    "price": 895,
+    "Description": "Eiusmod et sit non est minim minim commodo laborum quis ut duis ut elit.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt3.jpeg"
+  },
+  {
+    "_id": "5dbc8e226df1b1f483c6badc",
+    "category": "Pent",
+    "price": 127,
+    "Description": "Occaecat proident adipisicing eiusmod duis incididunt voluptate officia dolore occaecat esse tempor eiusmod adipisicing.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt7.jpeg"
+  },
+  {
+    "_id": "5dbc8e225425ddffc62ac0d7",
+    "category": "Skirt",
+    "price": 542,
+    "Description": "Eiusmod do elit non eu nostrud ea.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt5.jpeg"
+  },
+  {
+    "_id": "5dbc8e226ef2490ef3e49e35",
+    "category": "Blouse",
+    "price": 531,
+    "Description": "Voluptate consectetur exercitation laborum est officia.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt1.jpeg"
+  },
+  {
+    "_id": "5dbc8e22e3a05db24675b34f",
+    "category": "Skirt",
+    "price": 294,
+    "Description": "Mollit sint officia sunt sunt nisi exercitation aute ea.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt4.jpeg"
+  },
+  {
+    "_id": "5dbc8e2242547c9393faeef4",
+    "category": "Pent",
+    "price": 166,
+    "Description": "Nulla voluptate consequat qui ad aliquip do aliqua non aute consectetur consequat.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt8.jpeg"
+  },
+  {
+    "_id": "5dbc8e221bd8f40c7dfa00ee",
+    "category": "Pent",
+    "price": 731,
+    "Description": "Veniam amet magna tempor elit officia irure nisi magna deserunt ex non exercitation.",
+    "purchased": false,
+    "image": "./../../../assets/Images/pdt9.jpeg"
+  }
+],
+"categories":[
+  "Blouse",
+  "Skirt",
+  "Pent"
+]
+}

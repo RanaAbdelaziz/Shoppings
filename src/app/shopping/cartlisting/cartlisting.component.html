@@ -1,0 +1,27 @@
+<h4 class="m-2">Your Cart</h4>
+<p *ngIf="Products.length == 0">There are no items in your cart</p>
+<div class="container">
+  <h4 *ngIf="Products.length > 0">Total Price: {{totalPrice}}</h4>
+  <ng-container *ngFor="let item of Products let i = index">
+    <div style="height:230px" class="card mb-3">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="{{item.image}}" height="200"  class="card-img" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <a class="float-right" style="cursor:pointer"  (click)="RemoveItem(i)"><i class="fa fa-remove"></i></a>
+            <h5 class="card-title">{{item.category}}</h5>
+            <button class="btn btn-primary" style="background-color: #e3f2fd; color:black;" (click)="IncQuantity(i)"><i class="fa fa-plus"></i></button>
+            <span class="card-text m-2">
+              {{item.quantity}}
+            </span>
+            <button class="btn btn-primary" style="background-color: #e3f2fd; color:black;" (click)="DecQuantity(i)" [disabled]="item.quantity ==1"><i class="fa fa-minus"></i></button>
+            <p class="card-text mt-3"><strong>Total Price:</strong> {{item.quantity*item.price}}$</p>
+            <p class="card-text mt-3"><strong>Description:</strong> {{item.Description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
